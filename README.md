@@ -131,7 +131,10 @@ Or include:
     <groupId>org.springframework.boot</groupId>
     <artifactId>spring-boot-starter-web</artifactId>
 </dependency>
-4️⃣ Running the Applications
+```
+
+---
+## 4️⃣ Running the Applications
 
 Start Zookeeper
 
@@ -141,7 +144,8 @@ Run Producer (Port 8081)
 
 Run Consumer (Port 8082)
 
-5️⃣ API Testing (Postman)
+---
+## 5️⃣ API Testing (Postman)
 Send Data (Producer)
 
 Method: POST
@@ -163,33 +167,25 @@ Method: GET
 http://localhost:8082/kafka/get-course
 Architecture Flow
 Postman → Producer (8081) → Kafka Topic → Consumer (8082)
-Common Issues
-YAML Error
-
-Use spaces only. Do NOT use TAB for indentation.
-
-Jackson ClassNotFoundException
-
-Add jackson-databind dependency.
-
-Wrong Serializer/Deserializer
-
-Producer → Serializer
-Consumer → Deserializer
-
-Tech Stack
-
-Java 17
-
-Spring Boot 4.x
-
-Apache Kafka 3.9.x
-
-Maven
-
-Postman
-
 
 ---
 
-This is clean, properly formatted, and GitHub-ready.
+## 6️⃣ Common Issues
+### YAML Error
+- Use spaces only. Do NOT use TAB for indentation.
+
+### Jackson ClassNotFoundException
+- Add jackson-databind dependency.
+
+### Wrong Serializer/Deserializer
+- Producer → Serializer
+- Consumer → Deserializer
+
+---
+### 7️⃣ Tech Stack
+
+- Java 17
+- Spring Boot 4.x
+- Apache Kafka 3.9.x
+- Maven
+- Postman
