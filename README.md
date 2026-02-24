@@ -157,7 +157,7 @@ Body → raw → JSON
 {
   "courseId": "Jtelusko01",
   "title": "Java SpringBoot",
-  "trainer": "Navin Reddy",
+  "trainer": "Krushna Rathod",
   "price": 6500
 }
 Receive Data (Consumer)
