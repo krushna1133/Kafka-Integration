@@ -95,7 +95,7 @@ Use the following configuration:
 
 ### Producer Project
 
-- Group: com.telusko  
+-     Group: com.telusko  
 - Artifact: producer  
 - Package: com.telusko.kafka  
 
